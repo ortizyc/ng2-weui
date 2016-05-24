@@ -6,7 +6,7 @@ import 'rxjs/Rx'; // load the full rxjs
 @Component({
     moduleId: module.id,
     selector: 'app',
-    templateUrl: 'name.component.html',
+    templateUrl: 'app.component.html',
     directives: [ROUTER_DIRECTIVES],
     providers: [
       HTTP_PROVIDERS,
