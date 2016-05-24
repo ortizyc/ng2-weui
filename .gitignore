@@ -4,3 +4,5 @@ node_modules
 dist
 src/**/*.js
 src/**/*.js.map
+sample/**/*.js
+sample/**/*.js.map
