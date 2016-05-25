@@ -1,0 +1,7 @@
+<div class="weui_panel weui_panel_access">
+    <div class="weui_panel_hd">{{panelConfig.title}}</div>
+    <div class="weui_panel_bd">
+        <ng-content></ng-content>
+    </div>
+    <a href="javascript:void(0);" class="weui_panel_ft" (click)="doClick(panelConfig.foot)">{{panelConfig.foot}}</a>
+</div>

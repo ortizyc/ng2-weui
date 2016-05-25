@@ -1,18 +1,17 @@
 <div class="weui_msg">
     <div class="weui_icon_area">
-        <icon [clazz]="iconClass"></icon>
+        <icon [clazz]="msgConfig.icon"></icon>
     </div>
     <div class="weui_text_area">
-        <h2 class="weui_msg_title"></h2>
-        <p class="weui_msg_desc">内容详情，可根据实际需要安排</p>
+        <h2 class="weui_msg_title">{{msgConfig.title.name}}</h2>
+        <p class="weui_msg_desc" [innerHTML]="msgConfig.title.desc"></p>
     </div>
     <div class="weui_opr_area">
-        <p class="weui_btn_area">
-            <a href="javascript:;" class="weui_btn weui_btn_primary">确定</a>
-            <a href="javascript:;" class="weui_btn weui_btn_default">取消</a>
+        <p class="weui_btn_area" *ngFor="let btn of msgConfig.btn;let i = index;">
+            <btn [clazz]="btn.btnClass" [btnName]="btn.btnName" (click)="doClick(i)"></btn>
         </p>
     </div>
     <div class="weui_extra_area">
-        <a href="">查看详情</a>
+        <a href="{{msgConfig.detail.href}}" [innerHTML]="msgConfig.detail.name"></a>
     </div>
 </div>

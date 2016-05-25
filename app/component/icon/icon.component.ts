@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { NgClass } from '@angular/common';
 
+import { IconConfig } from './iconconfig';
+
 @Component({
     moduleId: module.id,
     selector: 'icon',
@@ -11,7 +13,7 @@ import { NgClass } from '@angular/common';
 })
 export class WeuiIconComponent{
     
-    @Input() clazz:Array<string>;
+    @Input() clazz:IconConfig;
     
     constructor() { }
 }
