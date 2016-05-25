@@ -1,6 +1,6 @@
 
 export interface PanelConfig {
     title?:string;
-    body:string;
+    body:Object;
     foot?:string;
 }
