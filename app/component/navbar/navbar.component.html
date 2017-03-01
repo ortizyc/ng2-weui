@@ -1,8 +1,0 @@
-<div class="weui_tab">
-    <div class="weui_navbar">
-        <div class="weui_navbar_item" *ngFor="let navbar of navbarConfig.navbars;let i = index;" [innerHTML]="navbar.name" (click)="doClick(i);"></div>
-    </div>
-    <div class="weui_tab_bd">
-        <ng-content></ng-content>
-    </div>
-</div>
