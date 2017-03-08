@@ -9,4 +9,4 @@ import { WeuiBtnComponent } from './weui-btn.component';
     declarations: [WeuiBtnComponent],
     exports: [WeuiBtnComponent]
 })
-export class WeuiActionSheetModule { }
+export class WeuiBtnModule { }
