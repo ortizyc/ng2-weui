@@ -10,4 +10,4 @@ const WEUI_ARTICLE_DECLARATIONS = [WeuiArticleComponent, WeuiSectionComponent]
     declarations: WEUI_ARTICLE_DECLARATIONS,
     exports: WEUI_ARTICLE_DECLARATIONS
 })
-export class AppModule { }
+export class WeuiArticleModule { }

@@ -8,4 +8,4 @@ import { WeuiBadgeComponent } from './weui-badge.component';
     declarations: [WeuiBadgeComponent],
     exports: [WeuiBadgeComponent]
 })
-export class AppModule { }
+export class WeuiBadgeModule { }

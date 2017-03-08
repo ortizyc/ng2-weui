@@ -10,4 +10,4 @@ const WEUI_FOOTER_DECLARATIONS = [WeuiFooterComponent, FooterLinkItemComponent, 
     declarations: WEUI_FOOTER_DECLARATIONS,
     exports: WEUI_FOOTER_DECLARATIONS
 })
-export class AppModule { }
+export class WeuiFooterModule { }
