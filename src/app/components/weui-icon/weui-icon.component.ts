@@ -17,7 +17,7 @@ export class WeuiIconComponent implements OnInit {
 
     private type:string;
 
-    @Input('type')
+    @Input('name')
     set _type(type:string){
         if(type === 'loading'){
             this.type = `weui-${type}`;
