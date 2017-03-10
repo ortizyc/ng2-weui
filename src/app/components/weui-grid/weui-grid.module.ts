@@ -10,4 +10,4 @@ const WEUI_GRID = [WeuiGridsComponent, WeuiGridComponent]
     declarations: WEUI_GRID,
     exports: WEUI_GRID
 })
-export class AppModule { }
+export class WeuiGridModule { }
