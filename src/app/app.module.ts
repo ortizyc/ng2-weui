@@ -5,6 +5,11 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { WeuiBtnModule } from './components/weui-btn';
+import { WeuiIconModule } from './components/weui-icon';
+import { WeuiLoadmoreModule } from './components/weui-loadmore';
+import { WeuiPanelModule } from './components/weui-panel';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +17,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    WeuiLoadmoreModule,
+    WeuiPanelModule
   ],
   providers: [],
   bootstrap: [AppComponent]
