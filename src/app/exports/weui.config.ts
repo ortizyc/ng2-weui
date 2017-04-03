@@ -1,4 +1,6 @@
-import { Inject, Injectable, ViewContainerRef } from '@angular/core';
+import { Inject, Injectable, ViewContainerRef, OpaqueToken } from '@angular/core';
+
+export const CONFIG = new OpaqueToken("CONFIG");
 
 @Injectable()
 export class WeuiConfig {
